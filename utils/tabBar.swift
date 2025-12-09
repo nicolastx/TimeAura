@@ -7,12 +7,10 @@ struct MainTabView: View {
                 .tabItem {
                     Label("Início", systemImage: "house")
                 }
-
             ClassificacaoView()
                 .tabItem {
                     Label("Classificação", systemImage: "trophy")
                 }
-
             DesempenhoView()
                 .tabItem {
                     Label("Desempenho", systemImage: "chart.line.uptrend.xyaxis")
@@ -20,4 +18,5 @@ struct MainTabView: View {
         }
     }
 }
+
 
