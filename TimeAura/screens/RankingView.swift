@@ -1,13 +1,13 @@
 //
-//  classificacao.swift
+//  RankingView.swift
 //  TimeAura
 //
-//  Created by found on 09/12/25.
+//  Created by found on 09/12/2025.
 //
 
 import SwiftUI
 
-struct ClassificacaoView: View {
+struct DesempenhoView: View {
     var body: some View {
         Text("Ranking")
     }

@@ -1,14 +1,23 @@
-
 import SwiftUI
 
-struct ContentView: View {
+struct MainTabView: View {
     var body: some View {
         TabView {
-            HomeView(){
+            HomeView()
                 .tabItem {
-                    Label ("Inicio", systemImage: "house")
+                    Label("Início", systemImage: "house")
                 }
-            }
+
+            ClassificacaoView()
+                .tabItem {
+                    Label("Classificação", systemImage: "trophy")
+                }
+
+            DesempenhoView()
+                .tabItem {
+                    Label("Desempenho", systemImage: "chart.line.uptrend.xyaxis")
+                }
         }
     }
 }
+
