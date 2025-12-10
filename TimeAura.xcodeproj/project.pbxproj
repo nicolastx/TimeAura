@@ -16,11 +16,6 @@
 			path = TimeAura;
 			sourceTree = "<group>";
 		};
-		22DDF0F72EE8921E00AB56A3 /* utils */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = utils;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +32,6 @@
 		221AC6182EE3529D003AA3D8 = {
 			isa = PBXGroup;
 			children = (
-				22DDF0F72EE8921E00AB56A3 /* utils */,
 				221AC6232EE3529D003AA3D8 /* TimeAura */,
 				221AC6222EE3529D003AA3D8 /* Products */,
 			);
@@ -68,7 +62,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				221AC6232EE3529D003AA3D8 /* TimeAura */,
-				22DDF0F72EE8921E00AB56A3 /* utils */,
 			);
 			name = TimeAura;
 			packageProductDependencies = (
