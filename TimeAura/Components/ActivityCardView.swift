@@ -25,10 +25,12 @@ struct ActivityCardView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(activity.name)
                     .font(.headline)
+                    .lineLimit(1)
                     .foregroundColor(.black)
                 
                 Text(activity.description)
                     .font(.subheadline)
+                    .lineLimit(1)
                     .foregroundColor(.gray)
                 
                 Text(activity.time)
